@@ -27,14 +27,15 @@ body{
 }
 
 .header__menu li a{
+    display: inline;
     padding-top: 10px;
     margin-left: 29px;
+    text-decoration: none;
 }
 .logo{
     width: 116px;
     margin-top: 42px;
     margin-left: 16px;
-    position: relative;
     bottom: 3px;
 
 }
@@ -43,7 +44,6 @@ body{
     width: 1024px;
 }
 .videoPresentacion{
-    padding-top: 20px;
     width: 100%;
 }
 .header__redesSociales{
@@ -180,4 +180,15 @@ body{
 }
 /* mediaqueries strategy mobile last */
 /* tamaño mediano: tablet */
-@media (max-width: 768px)
+@media (max-width: 768px){
+    
+}
+/* AnimacionesTransicionesTransformaciones */
+.logo:hover{
+    width: 123px;
+    transition: 0.5s;
+}
+.menu:hover{
+    width: 25px;
+    transition: 0.5s;
+}
