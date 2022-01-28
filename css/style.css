@@ -7,10 +7,10 @@
 }
 header{
     background-color: #edd6fa;
-    height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100px;
 }
 body{
     background-color: #edd6fa;
@@ -24,20 +24,22 @@ body{
     width: 500px;
     justify-content: space-around;
     align-items: center;
+    padding-top: 50px;
 }
 
 .header__menu li a{
-    display: inline;
-    padding-top: 10px;
-    margin-left: 29px;
     text-decoration: none;
+    color:black
 }
 .logo{
     width: 116px;
-    margin-top: 42px;
     margin-left: 16px;
-    bottom: 3px;
-
+    margin-top: 5px;
+}
+.header__redesSociales a{
+    margin-right: 4px;
+    color: black;
+    
 }
 .section1{
     display: flex;
@@ -48,9 +50,8 @@ body{
 }
 .header__redesSociales{
     display: flex;
-
+    padding-top: 50px;
 }
-
 /* -----------------------------------STYLE PRIMERA SECCIÓN--------------------------------- */
 .contenedorTitulo{
     color: #a700fa;
@@ -59,14 +60,24 @@ body{
 }
 .primeraSeccion__titulo{
     color: #a700fa;
-    font-size: 40px;
+    padding-left: 250px;
     position: absolute;
     left: 70px;
+}
+.primeraSeccion__titulo h1{
+    font-size: 50px;
 }
 .primeraSeccion__parrafo{
     padding: 50px;
     position: relative;
     top: 20px;
+}
+.primeraSeccion__parrafo p{
+    font-size: 30px;
+}
+.primeraSeccion__parrafo li{
+    list-style: none;
+    font-size: 30px;
 }
 /* -----------------------------------STYLE SEGUNDA SECCIÓN--------------------------------- */
 .grillaSegundaSeccion { 
@@ -171,12 +182,23 @@ body{
     font-size: 15px;
     height: 70px;
 }
+.h2 h2{
+    margin-top: 15px;
+}
 .p2{
     display: flex;
     align-items: flex-start;
 }
 .img{
     width: auto;
+}
+footer nav{
+    display: flex;
+    list-style: none;
+}
+footer a{
+    margin: 5px;
+    color: black;
 }
 /* mediaqueries strategy mobile last */
 /* tamaño mediano: tablet */
@@ -188,7 +210,4 @@ body{
     width: 123px;
     transition: 0.5s;
 }
-.menu:hover{
-    width: 25px;
-    transition: 0.5s;
-}
+
