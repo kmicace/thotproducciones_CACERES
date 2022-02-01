@@ -32,7 +32,7 @@ body{
     color:black
 }
 .logo{
-    width: 116px;
+    width: 100px;
     margin-left: 16px;
     margin-top: 5px;
 }
@@ -130,9 +130,92 @@ body{
     display: flex;
     align-items: center;
   }
+  /* Media Querys Index*/
+/* Tamaño Grande: Laptop */
+@media (max-width:1024px){
+    .videoPresentacion{
+        margin-top: -100px;
+    }
+    .primeraSeccion__titulo h1{
+    margin-top: -50px;
+    margin-left: -190px;
+    }
+    .h3 h3{
+    font-size: 30px;
+    }
+    .iframe{
+    width: 450px;
+    }
+    .h2{
+        align-items: center;
+    }
+}
+/* Tamaño Mediano: Tablet */
+@media (max-width:768px){
+    .videoPresentacion{
+    margin-top: -170px;
+    }
+    .primeraSeccion__titulo h1 {
+        margin-top: -109px;
+        margin-left: -274px;
+        font-size: 45px;
+    }
+    .primeraSeccion__parrafo{
+        top: -49px;
+    }
+    .grillaSegundaSeccion{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .footer nav{
+        justify-content: center;
+    }
+}
+/* Tamaño chico: Mobile */
+@media (max-width:320px){
+    .header__menu ul{
+        font-size: 15px;
+        width: 250px;
+    }
+    .header__redesSociales{
+        display: none;
+    }
+    .header__menu ul{
+        flex-direction: column;
+    }
+    .videoPresentacion{
+    margin-top: -259px;
+    width: 100vh;
+    }
+    .primeraSeccion__titulo h1 {
+    margin-top: -241px;
+    margin-left: -240px;
+    }
+    .primeraSeccion__parrafo p{
+    font-size: 20px;
+    margin-top: -20px;
+    }
+    .primeraSeccion__parrafo li{
+        font-size: 20px;
+    }
+    .grillaSegundaSeccion {
+        display: flex;
+        width: 100vh;
+        align-items: center;
+        flex-direction: column;
+    }
+    .iframe{
+        width: 300px;
+    }
+    .h3 h3 {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+}
 /* ---------------------------------------INICIO PAGINA SERVICIOS-------------------------------------------- */
 .banner{
-    margin-top: 30px;
+    margin-top: 15px;
     width: 100%;
     height: 500px;
 }
@@ -188,26 +271,6 @@ body{
     color: white;
     transition: all 500ms ease-out;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer nav{
     display: flex;
     list-style: none;
@@ -215,11 +278,6 @@ footer nav{
 footer a{
     margin: 5px;
     color: black;
-}
-/* mediaqueries strategy mobile last */
-/* tamaño mediano: tablet */
-@media (max-width: 768px){
-    
 }
 /* AnimacionesTransicionesTransformaciones */
 .logo:hover{
