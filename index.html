@@ -23,30 +23,37 @@
 
 <body>
     <!-- INICIO DEL HEADER -->
-    <header class="header">
+    <header class="container-fluid header">
+        <!-- barra de navegacion -->
+        <nav class="navbar navbar-expand-sm navbar-light border-3 header__menu">
+            <div class="container-fluid">
+                <a href="index.html"><img src="./img/logo_thot_producciones.png" alt="logothotproducciones" class="navbar-brand header__logo"></a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menuNavegable">
+                    <span class="navbar-toggler-icon bg-light"></span>
+                </button>
+                <div id="menuNavegable" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ms-3 header__link--paginas">
+                        <li class="nav-item"><a class="nav-link" href="./pages/servicios.html">SERVICIOS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/empresa.html">EMPRESA</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/proyectos.html">PROYECTOS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/contacto.html">CONTACTO</a></li>
+                    </ul>
+                    <ul class="navbar-nav ms-3 header__link--redesSociales">
+                        <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/th0tproducciones"><i class="fab fa-facebook"></i></a></i></li>
+                        <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/th0tproducciones"><i class="fab fa-instagram"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://www.youtube.com/channel/UCcQI1GKMHL-ODEVv3jm2jXQ"><i class="fab fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
         <!-- ---------------------------------------logo del menú------------------------------------------------ -->
-        <a href="index.html"><img src="./img/logo_thot_producciones.png" alt="logothotproducciones" class="logo"></a>
-        <nav class="header__menu">
-            <!-- -----------------------------páginas del menú------------------------------------>
-            <ul class="menu">
-                <li><a href="./pages/servicios.html">SERVICIOS</a></li>
-                <li><a href="./pages/empresa.html">EMPRESA</a></li>
-                <li><a href="./pages/proyectos.html">PROYECTOS</a></li>
-                <li><a href="./pages/contacto.html">CONTACTO</a></li>
-            </ul>
-            <!-- -----------------------------redes sociales del menú----------------------------->
-        </nav>
-        <nav class="header__redesSociales">
-            <a href="https://www.facebook.com/th0tproducciones"><i class="fab fa-facebook"></i></a></i>
-            <a href="https://www.instagram.com/th0tproducciones"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.youtube.com/channel/UCcQI1GKMHL-ODEVv3jm2jXQ"><i class="fab fa-youtube"></i></a>
-        </nav>
+        
     </header>
     <!-- FINAL DEL HEADER -->
     <!---------------------------------------PRIMERA SECCIÓN------------------------------------------->
-        <section class="primeraSeccion">
+        <section class="primeraSeccion container-fluid">
             <!-------------------------------------video presentación---------------------------->
-                <video src="./img/Animacion THOT.mp4" alt="videoPresentacion" autoplay muted width="1300" height="800"
+                <video src="./img/Animacion THOT.mp4" alt="videoPresentacion" autoplay muted
                     class="videoPresentacion"></video>
             <!-- -----------------------------título presentación-------------------------------->
             <div class="primeraSeccion__titulo">

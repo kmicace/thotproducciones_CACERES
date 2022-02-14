@@ -7,58 +7,30 @@
 }
 header{
     background-color: #edd6fa;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100px;
 }
 body{
     background-color: #edd6fa;
 }
 /* -----------------------------------STYLE MENU---------------------------------------- */
-.header__menu ul{
-    display: flex;
-    font-size: 20px;
-    list-style: none;
-    height: 18px;
-    width: 500px;
-    justify-content: space-around;
-    align-items: center;
-    padding-top: 50px;
-}
-
-.header__menu li a{
-    text-decoration: none;
-    color:black
-}
-.header__menu li:hover{
-    background-color: white;
-}
-.logo{
+.header__logo{
     width: 100px;
     margin-left: 16px;
-    margin-top: 5px;
 }
-.header__redesSociales a{
-    margin-right: 4px;
+.header__logo:hover{
+    width: 123px;
+    transition: 1s;
+}
+#menuNavegable{
+    justify-content: space-between;
+    font-size: 20px;
+}
+#menuNavegable .nav-link{
     color: black;
-    
-}
-.section1{
-    display: flex;
-    width: 1024px;
 }
 .videoPresentacion{
     width: 100%;
 }
-.header__redesSociales{
-    display: flex;
-    padding-top: 50px;
-}
-.logo:hover{
-    width: 123px;
-    transition: 0.5s;
-}
+
 /* -----------------------------------STYLE PRIMERA SECCIÓN--------------------------------- */
 .contenedorTitulo{
     color: #a700fa;
@@ -140,9 +112,6 @@ body{
   /* Media Querys Index*/
 /* Tamaño Grande: Laptop */
 @media (max-width:1024px){
-    .videoPresentacion{
-        margin-top: -100px;
-    }
     .primeraSeccion__titulo h1{
     margin-top: -50px;
     margin-left: -190px;
@@ -159,9 +128,6 @@ body{
 }
 /* Tamaño Mediano: Tablet */
 @media (max-width:768px){
-    .videoPresentacion{
-    margin-top: -170px;
-    }
     .primeraSeccion__titulo h1 {
         margin-top: -109px;
         margin-left: -274px;
@@ -181,27 +147,8 @@ body{
 }
 /* Tamaño chico: Mobile */
 @media (max-width:320px){
-    .header__menu ul{
-        font-size: 15px;
-        width: 250px;
-    }
-    .header__redesSociales{
-        display: none;
-    }
-    .header__menu ul{
-        flex-direction: column;
-    }
-    .videoPresentacion{
-    margin-top: -259px;
-    width: 100vh;
-    }
-    .primeraSeccion__titulo h1 {
-    margin-top: -241px;
-    margin-left: -240px;
-    }
     .primeraSeccion__parrafo p{
     font-size: 20px;
-    margin-top: -20px;
     }
     .primeraSeccion__parrafo li{
         font-size: 20px;
