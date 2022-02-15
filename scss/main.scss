@@ -7,51 +7,15 @@
 }
 //variables
 @import './variables/colores';
+@import './variables/tamanios';
 //secciones
 @import './secciones/index';
 
 @import './header.footer/header';
 @import './header.footer/footer';
-header{
-    background-color: #edd6fa;
-}
+
 body{
     background-color: #edd6fa;
-}
-/* -----------------------------------STYLE MENU---------------------------------------- */
-.header__logo{
-    width: 100px;
-    margin-left: 16px;
-}
-.header__logo:hover{
-    width: 123px;
-    transition: 1s;
-}
-#menuNavegable{
-    justify-content: space-between;
-    font-size: 20px;
-}
-#menuNavegable .nav-link{
-    color: black;
-}
-.videoPresentacion{
-    width: 100%;
-}
-
-/* -----------------------------------STYLE PRIMERA SECCIÓN--------------------------------- */
-.contenedorTitulo{
-    color: #a700fa;
-    margin: 15px auto;
-    font-size: 50px;
-}
-.primeraSeccion__titulo{
-    color: #a700fa;
-    padding-left: 250px;
-    position: absolute;
-    left: 70px;
-}
-.primeraSeccion__titulo h1{
-    font-size: 50px;
 }
 .primeraSeccion__parrafo{
     padding: 50px;
