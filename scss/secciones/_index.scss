@@ -2,7 +2,7 @@
 .primeraSeccion{
     padding: 0;
     .videoPresentacion{
-        width: 100%;
+        width: $ancho;
     }
     &__titulo{
         color: $violeta;
