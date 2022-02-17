@@ -57,6 +57,20 @@
 .mainEmpresa .section2 .integrantes p {
   font-family: "Amaranth"; }
 
+.mainEmpresa img {
+  width: 100%;
+  height: 350px; }
+
+.mainEmpresa h1 {
+  padding: 30px;
+  color: #a700fa; }
+
+.mainEmpresa .container {
+  flex-direction: column;
+  padding: 20px; }
+  .mainEmpresa .container iframe {
+    margin: auto auto; }
+
 .container h1 {
   color: white;
   position: absolute;
@@ -239,6 +253,7 @@ body {
 
 footer nav {
   display: flex;
+  justify-content: center;
   list-style: none; }
 
 footer a {

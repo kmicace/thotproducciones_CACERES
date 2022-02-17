@@ -1,0 +1,17 @@
+.mainEmpresa{
+    img{
+        width: 100%;
+        height: 350px;
+    }
+    h1{
+        padding: 30px;
+        color: $violeta;
+    }
+    .container{
+        flex-direction: column;
+        padding: 20px;
+        iframe{
+            margin: auto auto;
+        }
+    }
+}

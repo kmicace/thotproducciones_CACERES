@@ -12,7 +12,9 @@
 @import './secciones/index';
 @import './secciones/servicios';
 @import './secciones/empresa';
+@import './secciones/proyectos';
 @import './secciones/contacto';
+
 
 @import './header.footer/header';
 @import './header.footer/footer';
@@ -193,6 +195,7 @@ body{
 }
 footer nav{
     display: flex;
+    justify-content: center;
     list-style: none;
 }
 footer a{
