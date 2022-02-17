@@ -28,6 +28,43 @@
         list-style: none;
         font-size: 30px; }
 
+.mainServicios__banner {
+  width: 100%;
+  height: 350px; }
+
+.mainServicios .container {
+  width: 400px;
+  height: 400px; }
+
+.mainEmpresa__banner {
+  width: 100%;
+  height: 350px; }
+
+.mainEmpresa .section1 h1 {
+  color: #a700fa; }
+
+.mainEmpresa .section1 h4 {
+  font-family: "Amaranth"; }
+
+.mainEmpresa .section2 h4 {
+  color: #a700fa; }
+
+.mainEmpresa .section2 .integrantes img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%; }
+
+.mainEmpresa .section2 .integrantes p {
+  font-family: "Amaranth"; }
+
+.container h1 {
+  color: white;
+  position: absolute;
+  left: 10%; }
+
+.container .formula {
+  margin: 3px; }
+
 .header__logo {
   width: 100px;
   margin-left: 10px; }
@@ -43,18 +80,6 @@
 
 body {
   background-color: #edd6fa; }
-
-.primeraSeccion__parrafo {
-  padding: 50px;
-  position: relative;
-  top: 20px; }
-
-.primeraSeccion__parrafo p {
-  font-size: 30px; }
-
-.primeraSeccion__parrafo li {
-  list-style: none;
-  font-size: 30px; }
 
 /* -----------------------------------STYLE SEGUNDA SECCIÓN--------------------------------- */
 .grillaSegundaSeccion {
@@ -153,11 +178,6 @@ body {
     margin-top: 15px; } }
 
 /* ---------------------------------------INICIO PAGINA SERVICIOS-------------------------------------------- */
-.banner {
-  margin-top: 15px;
-  width: 100%;
-  height: 500px; }
-
 .tituloServicios {
   color: #a700fa;
   font-size: 60px; }

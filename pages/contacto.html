@@ -49,28 +49,31 @@
         </nav>        
     </header>
     <main>
-        <form>
-        <div>
-            <label for="Nombre">Nombre</label>
-            <input type="text" id="Nombre">
+        <div class="container mt-5">
+            <img src="https://static.wixstatic.com/media/5e471f_209012681a8b4415942eeb8469139d75~mv2.jpg/v1/fill/w_400,h_499,al_c,lg_1,q_80/5e471f_209012681a8b4415942eeb8469139d75~mv2.webp" alt="imagenContacto">
+            <h1>¡CONTACTANOS!</h1>
+            <form class="row g-3 formula">
+                <div class="col-md-6">
+                    <label for="Nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="NombreInfo" required>
+                </div>
+                <div class="col-md-8">
+                    <label for="Email" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" id="EmailInfo" required>
+                </div>
+                <div class="col-md-8">
+                    <label for="Asunto" class="form-label">Asunto</label>
+                    <input type="text" class="form-control" id="AsuntoInfo">
+                </div>
+                <div class="col-md-12">
+                     <label for="Mensaje" class="form-label" >Mensaje</label>
+                     <textarea class="form-control" id="mensajeInfo" rows="3" required></textarea>
+                </div>
+                <div class="col-md-12">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>      
+            </form>
         </div>
-        <div>
-            <label for="Email">Email</label>
-            <input type="email" id="Email">
-        </div>
-        <div>
-            <label for="Asunto">Asunto</label>
-            <input type="text" id="Asunto">
-        </div>
-        <div>
-             <label for="Mensaje">Mensaje</label>
-             <input type="text" id="Mensaje">
-        </div>
-        <div class="box box1">
-            <input type="submit" value="Enviar">
-        </div>
-            
-         </form>
     </main>
     <footer>
         <nav>

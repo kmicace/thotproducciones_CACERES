@@ -1,0 +1,29 @@
+.mainEmpresa{
+    &__banner{
+        width: $ancho;
+        height: 350px;
+    }
+    .section1{
+        h1{
+            color: $violeta;
+        }
+        h4{
+            font-family: "Amaranth";
+        }
+    }
+    .section2{
+        h4{
+            color: $violeta;
+        }
+        .integrantes{
+            img{
+                width: 250px;
+                height: 250px;
+                border-radius: 50%;
+            }
+            p{
+                font-family: "Amaranth";
+            }
+        }
+    }    
+}
