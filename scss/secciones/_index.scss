@@ -6,24 +6,76 @@
     }
     &__titulo{
         color: $violeta;
-        margin: 15px auto;
-        padding-left: 250px;
-        position: absolute;
-        left: 70px;
+        position: relative;
+        margin: 30px;
+        top: 15px;
+        margin-left: 50vh;
         h1{
             font-size: $h1;
         }
     }
     &__parrafo{
-        padding: 50px;
         position: relative;
-        top: 20px;
+        margin-left: 90px;
         p{
             font-size: 30px;
-            li{
-                list-style: none;
-                font-size: 30px;
-            }
         }
+        .primeraSeccion__parrafo--principal{
+            font-family: "Amaranth";
+            padding: 50px;
+        }
+        .primeraSeccion__parrafo--secundario{
+            font-family: "Vollkorn";
+            position: relative;
+            margin-left: 50vh;
+            margin-top: 70px;
+        }
+        li{
+            font-family: "Amaranth";
+            list-style: none;
+            position: relative;
+            margin-left: 55vh;
+            bottom: 20px;
+            font-size: 20px;
+        }
+        
     }
+}
+.grillaSegundaSeccion {
+    background-color: violet;
+    @include grid(4, 1fr, 4, row);
+    grid-template-areas: 
+    ". h2 h2 ."
+    "h3 h3 iframe iframe"
+    "p p iframe iframe" ;
+
+    .h2 { 
+        grid-area: h2; 
+        align-items: center;
+        display:flex;
+        justify-content: center;
+        color: ivory;
+        font-size: 20px;
+        background-color: #f3008c;
+        height: 70px;
+    }
+    .h3 { 
+        grid-area: h3; 
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        font-family: 'Amaranth'
+    }
+    .p { 
+        grid-area: p; 
+        display: flex;
+        margin: 20px;
+        padding-left: 30px;
+    }
+    .iframe { 
+        grid-area: iframe; 
+        display: flex;
+        align-items: center;
+    }
+
 }
