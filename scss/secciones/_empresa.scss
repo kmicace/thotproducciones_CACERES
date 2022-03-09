@@ -16,10 +16,15 @@
             color: $violeta;
         }
         .integrantes{
+            display: flex;
+            align-items: center;
             img{
                 width: 250px;
                 height: 250px;
                 border-radius: 50%;
+            }
+            h5{
+                margin-left: 60px;
             }
             p{
                 font-family: "Amaranth";

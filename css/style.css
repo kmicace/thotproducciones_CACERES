@@ -122,12 +122,14 @@
       visibility: hidden;
       text-align: center; }
       .mainServicios__container figure .capa h5 {
-        font-size: "Amaranth";
         color: white;
+        font-family: "Amaranth";
         padding: 5px;
         margin: 10px; }
       .mainServicios__container figure .capa li {
-        color: white; }
+        color: white;
+        text-align: start;
+        margin-left: 10px; }
 
 .mainEmpresa__banner {
   width: 100%;
@@ -147,6 +149,9 @@
   height: 250px;
   border-radius: 50%; }
 
+.mainEmpresa .section2 .integrantes h5 {
+  margin-left: 60px; }
+
 .mainEmpresa .section2 .integrantes p {
   font-family: "Amaranth"; }
 
@@ -162,15 +167,20 @@
   flex-direction: column;
   padding: 20px; }
   .mainEmpresa .container iframe {
-    margin: auto auto; }
+    margin: 20px; }
 
 .container h1 {
   color: white;
   position: absolute;
-  left: 10%; }
+  left: 10%;
+  top: 200px; }
 
 .container .formula {
-  margin: 3px; }
+  margin: 3px;
+  position: absolute;
+  top: 200px;
+  left: 45%;
+  margin-right: 30px; }
 
 .header {
   background-color: #ffcaf8; }
