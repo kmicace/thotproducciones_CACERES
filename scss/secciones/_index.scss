@@ -77,5 +77,15 @@
         display: flex;
         align-items: center;
     }
-
-}
+    @media(max-width: 1024px){
+        .iframe{
+            flex-direction: column;
+        }
+    }
+    @media (max-width: 850px){
+        display: flex;
+        flex-direction: column;
+        .iframe{
+            justify-content: center;
+        }
+    }
